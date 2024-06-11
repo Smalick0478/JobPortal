@@ -21,9 +21,9 @@ Welcome to the Job Portal project! This open-source initiative aims to revolutio
 
 
 | Type | Title     | Description                |
-| :-------- | :------- | :------------------------- |
+| :-------- | :------------ | :------------------------- |
 | `❌` | `User Profiles:` | **Job seekers and employers can create detailed profiles showcasing their skills, experience, and preferences.**|
-| `❌` | `Responsive Design::` | **Access the platform from any device - desktop, tablet, or mobile - with a responsive and intuitive design.**|
+| `❌` | `Responsive Design:` | **Access the platform from any device - desktop, tablet, or mobile - with a responsive and intuitive design.**|
 
 
 ## Contributing
