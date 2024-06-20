@@ -80,7 +80,7 @@
 
                 <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
                     <div class="d-flex align-items-center justify-content-center mb-2">
-                        <strong class="number" data-number="1930">0</strong>
+                        <strong class="number" data-number="{{ $totalCandidates }}">0</strong>
                     </div>
                     <span class="caption">Candidates</span>
                 </div>
@@ -94,14 +94,14 @@
 
                 <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
                     <div class="d-flex align-items-center justify-content-center mb-2">
-                        <strong class="number" data-number="120">0</strong>
+                        <strong class="number" data-number="1">0</strong>
                     </div>
                     <span class="caption">Jobs Filled</span>
                 </div>
 
                 <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
                     <div class="d-flex align-items-center justify-content-center mb-2">
-                        <strong class="number" data-number="550">0</strong>
+                        <strong class="number" data-number="{{ $totalCompanies }}">0</strong>
                     </div>
                     <span class="caption">Companies</span>
                 </div>
@@ -125,7 +125,7 @@
             <ul class="job-listings mb-5">
                 @foreach ($jobs as $job)
                     <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
-                        <a href="job-single.html"></a>
+                        <a href="{{ route('single.job', $job->id) }}"></a>
                         <div class="job-listing-logo">
                             <img src="{{ asset('assets/images/' . $job->image . '') }}" alt="Job Image" class="img-fluid">
                         </div>
@@ -165,7 +165,7 @@
                         adipisci impedit.</p>
                 </div>
                 <div class="col-md-3 ml-auto">
-                    <a href="#" class="btn btn-warning btn-block btn-lg">Sign Up</a>
+                    <a href="/register" class="btn btn-warning btn-block btn-lg">Sign Up</a>
                 </div>
             </div>
         </div>
@@ -275,8 +275,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 ml-auto align-self-end">
-                    <img src="{{ asset('assets/images/apps.png') }}" alt="Free Website Template by Free-Template.co"
-                        class="img-fluid">
+                    <img src="{{ asset('assets/images/apps.png') }}" alt="appstore images" class="img-fluid">
                 </div>
             </div>
         </div>
