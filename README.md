@@ -14,11 +14,11 @@ Welcome to the Job Portal project! This open-source initiative aims to revolutio
 
 #### Key Features:
 
-| Type | Title                | Description                                                                                                                                                                                                 |
-| :--- | :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `❌` | `User Profiles:`     | **Job seekers and employers can create detailed profiles showcasing their skills, experience, and preferences.**                                                                                            |
-| `✔`  | `Responsive Design:` | **Access the platform from any device - desktop, tablet, or mobile - with a responsive and intuitive design.**                                                                                              |
-| `✔`  | `Auth Setup:`        | **Users experience streamlined login and registration processes, bolstering accessibility and usability. This setup integrates security measures to safeguard user data, fostering trust and reliability.** |
+| Type                 | Title                | Description                                                                                                                                                                                                 |
+| :------------------- | :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `❌`                 | `User Profiles:`     | **Job seekers and employers can create detailed profiles showcasing their skills, experience, and preferences.**                                                                                            |
+| `:heavy_check_mark:` | `Responsive Design:` | **Access the platform from any device - desktop, tablet, or mobile - with a responsive and intuitive design.**                                                                                              |
+| `:heavy_check_mark:` | `Auth Setup:`        | **Users experience streamlined login and registration processes, bolstering accessibility and usability. This setup integrates security measures to safeguard user data, fostering trust and reliability.** |
 
 ## Contributing
 
