@@ -16,10 +16,11 @@ return new class extends Migration
             $table->string('job');
             $table->string('job_title');
             $table->string('job_region');
+            $table->string('job_company');
             $table->string('job_type');
             $table->integer('vacancy');
             $table->string('experience');
-            $table->decimal('salary', 10, 2);
+            $table->string('salary');
             $table->string('gender');
             $table->date('application_deadline');
             $table->text('job_description');
